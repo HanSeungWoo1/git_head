@@ -1,0 +1,10 @@
+
+print("사각형의 넓이와 둘레를 계산합니다.")
+w = int(input('사각형의 가로 입력: '))
+h = int(input('사각형의 세로 입력: '))
+print("-"*30)
+area_calc = int(w*h)
+print("사각형의 넓이 :",area_calc)
+circum_calc = int((w+h)*2)
+print("사각형의 둘레 :",circum_calc)
+print("-"*30)

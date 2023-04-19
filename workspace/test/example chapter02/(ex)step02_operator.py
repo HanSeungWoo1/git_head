@@ -1,0 +1,34 @@
+num1 = 100 # 피연산자1
+num2 = 20 # 피연산자2
+
+add = num1 + num2 # 덧셈
+print('add=', add)
+sub = num1 - num2 # 뺄셈
+print(sub)
+mul = num1 * num2 # 곱셈
+print(mul)
+div = num1/num2 # 나눗셈
+print(div)
+div2 = num1 % num2 # 나머지 계산
+print(div2)
+square = num1 ** 2 # 제곱 계산
+print(square)
+
+
+
+# (1) 동등비교
+bool_result = num1 == num2 # 두 변수의 값이 같은지 비교
+print(bool_result)
+bool_result = num1 != num2 # 두 변수의 값이 다른지 비교
+print(bool_result)
+
+
+# (2) 크기비교
+bool_result = num1 > num2 # num1 값이 크거나 같은지 비교
+print(bool_result)
+bool_result = num1 >= num2 # num1 값이 크거나 같은지 비교
+print(bool_result)
+bool_result = num1 < num2 # num2 값이 큰지 비교
+print(bool_result)
+bool_result = num1 <= num2 # num2 값이 크거나 같은지 비교
+print(bool_result)
